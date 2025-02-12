@@ -54,7 +54,8 @@ Para resolver este reto, seguí los siguientes pasos:
 ---
 
 ## 🚀 **Enrutamiento de los Componentes**
-Aparte de desarrollar `CreateAccountForm`, decidí **enrutar todos los componentes** en la aplicación. La navegación sigue el siguiente flujo:
+Este proyecto utiliza **App Router** de Next.js para manejar la navegación entre los componentes.  
+Cada componente está en la carpeta `app/components/` y se navega entre ellos usando el enrutamiento de Next.js. La navegación sigue el siguiente flujo:
 
 1️⃣ **`LoginLanding`** _(Primer Componente)_
    - Es la pantalla inicial.
